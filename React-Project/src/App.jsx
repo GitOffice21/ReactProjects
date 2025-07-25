@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthProvider } from '../auth/authContext.jsx'; // or correct relative path
+import { AuthProvider } from "./auth/authContext.jsx";
 import AppRouter from "./routes/AppRouter.jsx";
 
 function App() {

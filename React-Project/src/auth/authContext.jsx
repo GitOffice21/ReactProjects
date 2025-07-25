@@ -1,7 +1,9 @@
 // src/auth/authContext.jsx
 import { createContext, useContext, useState, useEffect } from "react";
 
-const AuthContext = createContext();
+// Export the AuthContext so it can be imported elsewhere
+// eslint-disable-next-line react-refresh/only-export-components
+export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
